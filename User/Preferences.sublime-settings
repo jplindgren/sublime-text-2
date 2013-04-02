@@ -46,7 +46,8 @@
 		"pkg",
 		".sass-cache",
 		"node_modules",
-		"log"
+		"log",
+		".vagrant"
 	],
 	"font_face": "Menlo",
 	"font_options":
