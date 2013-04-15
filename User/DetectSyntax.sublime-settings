@@ -23,10 +23,18 @@
         {"file_name": "\\.ru$"}
       ]
     },
+
     {
       "name": "RSpec",
       "rules": [
         {"file_name": "_spec\\.rb$"}
+      ]
+    },
+
+    {
+      "name": "Coffeescript",
+      "rules": [
+        {"file_name": "\\.coffee$"}
       ]
     }
 	]

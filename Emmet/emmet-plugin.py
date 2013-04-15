@@ -270,7 +270,12 @@ def should_handle_tab_key(syntax=None):
 		return True
 
 	abbr = ctx.js().locals.pyExtractAbbreviation()
-	if not re.match(r'^[\w\:%]+$', abbr):
+
+	disabled_snippets = settings.get('disabled_single_snippets', '').split()
+	if disabled_snippets and abbr in disabled_snippets:
+		return False
+
+	if not re.match(r'^[\w\-\:%]+$', abbr):
 		# it's a complex expression
 		return True
 
