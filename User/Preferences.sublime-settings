@@ -47,7 +47,8 @@
 		".sass-cache",
 		"node_modules",
 		"log",
-		".vagrant"
+		".vagrant",
+		".jhw-cache"
 	],
 	"font_face": "Menlo",
 	"font_options":
@@ -60,7 +61,8 @@
 	"ignored_packages":
 	[
 		"Vintage",
-		"Emmet"
+		"Emmet",
+		".DS_Store"
 	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
