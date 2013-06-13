@@ -61,7 +61,6 @@
 	"ignored_packages":
 	[
 		"Vintage",
-		"Emmet",
 		".DS_Store"
 	],
 	"line_padding_bottom": 1,
@@ -82,5 +81,9 @@
 	"tab_size": 2,
 	"theme": "Soda Light.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
+	"hayaku_CSS_newline_after_expand": true,
+	"hayaku_CSS_colors_case": "lowercase",
+	"hayaku_CSS_colors_case": "lowercase",
+	"hayaku_CSS_prefixes_disable": true
 }

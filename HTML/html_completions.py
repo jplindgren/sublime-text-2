@@ -127,7 +127,7 @@ class TagCompletions(sublime_plugin.EventListener):
             ("pre\tTag", "pre>$1</pre>"),
             ("span\tTag", "span>$1</span>"),
             ("samp\tTag", "samp>$1</samp>"),
-            ("script\tTag", "script type=\"${1:text/javascript}\">$0</script>"),
+            ("script\tTag", "script>$0</script>"),
             ("style\tTag", "style type=\"${1:text/css}\">$0</style>"),
             ("select\tTag", "select>$1</select>"),
             ("small\tTag", "small>$1</small>"),
